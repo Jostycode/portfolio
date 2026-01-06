@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Espace pour le défilement sous la nav fixe */
+:root {
+    --nav-height: 70px;
+    /* ajuster selon la hauteur réelle de la nav */
+}
+
+/* Appliquer à toutes les sections ciblées par id */
+section,
+[id] {
+    scroll-margin-top: var(--nav-height);
+}
+
+/* Optionnel : styles de base */
+html,
+body {
+    font-family: 'Roboto', sans-serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* page service */
+
+.servicep {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #fff;
+    width: 100% !important;
+    position: relative;
+    text-align: center;
+}
+
+.card .service-p {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("assets/eau.jpg") center/cover;
+    color: white !important;
+}
+
+.stext {
+    color: #198754 !important;
+    font-weight: 700 !important;
+    font-size: 35pt !important;
+}
+
+.ensavoirplus {
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+/* urgence */
+.imgurgence {
+    width: 100%;
+    margin: 2%;
+    box-shadow: 0px 0px 16px #888888;
+    border-radius: 20px;
+}
+
+.urgence-para {
+    font-size: 16pt;
+    font-weight: 500;
+    text-align: left;
+}
+
+.service-container {
+    padding: 2% 10% !important;
+}
+
+.surgence {
+    animation: b 2s linear infinite alternate;
+}
+
+@keyframes b {
+    from {
+        color: white;
+    }
+
+    to {
+        color: #dc3545;
+    }
+}
+
+
+
+/* .membre {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+        url("assets/img6.png") center/cover;
+    color: #fff;
+    text-align: center;
+}
+
+.membre h2 {
+    padding-top: 5%;
+    font-size: 35pt;
+    font-weight: 700;
+} */

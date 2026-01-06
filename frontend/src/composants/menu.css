@@ -1,0 +1,52 @@
+/* Styles personnalisés pour la Navbar Bootstrap */
+
+.navbar {
+    z-index: 1000;
+}
+
+/* Transition smooth pour les liens de navigation */
+.nav-item-custom {
+    transition: color 0.3s ease;
+    font-weight: 500;
+}
+
+.nav-item-custom:hover {
+    color: #ffc107 !important;
+}
+
+.nav-item-custom.active {
+    color: #ffc107;
+}
+
+/* Style pour la marque (logo/titre) */
+.navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+/* Adaptation pour petits écrans */
+@media (max-width: 991px) {
+    .navbar {
+        padding: 0.5rem 0;
+    }
+
+    .nav-link {
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5rem !important;
+    }
+
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+}
+
+/* Adaptation pour très petits écrans */
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 1rem;
+    }
+
+    .nav-link {
+        font-size: 0.95rem;
+    }
+}
