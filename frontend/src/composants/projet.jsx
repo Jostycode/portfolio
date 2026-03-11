@@ -1,10 +1,10 @@
 import { useRef } from "react";
 import speech1 from "../assets/speech1.mp4";
-import leseaux2 from "../assets/leseaux2.mp4";
-import leseaux1 from "../assets/clinique leseaux 2.mp4";
-import restaurant from "../assets/restaurant.mp4";
-import registre from "../assets/registre ccc.mp4";
-import Logo_leseaux from "../assets/logo_leseaux.png";
+import leseaux2 from "../assets/Leseaux2.mp4";
+import leseaux1 from "../assets/Clinique leseaux 2.mp4";
+import restaurant from "../assets/Restaurant.mp4";
+import registre from "../assets/Registre ccc.mp4";
+import Logo_leseaux from "../assets/Logo_leseaux.png";
 import logo_ccc from "../assets/logo_ccc.png";
 import img33 from "../assets/img2.png";
 import "bootstrap/dist/css/bootstrap.min.css";
