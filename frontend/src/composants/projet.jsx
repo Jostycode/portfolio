@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import speech1 from "../assets/speech1.mp4";
 import leseaux2 from "../assets/Leseaux2.mp4";
-import leseaux1 from "../assets/Clinique leseaux 2.mp4";
+import leseaux1 from "../assets/Clinique_leseaux2.mp4";
 import restaurant from "../assets/Restaurant.mp4";
 import registre from "../assets/Registre ccc.mp4";
 import Logo_leseaux from "../assets/Logo_leseaux.png";
