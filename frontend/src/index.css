@@ -19,7 +19,28 @@ body {
     margin: 0;
     padding: 0;
     max-width: 100%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+}
+
+.exat {
+  animation: a 3s linear infinite;
+  
+}
+
+@keyframes a {
+  from {
+    color: white;
+    transform: translateX(2%);
+  }
+
+  to {
+    color: black;
+    transform: translateX(0);
+  }
+}
+
+.pointer{
+    cursor: pointer;
 }
 
 /* page service */
@@ -31,6 +52,7 @@ body {
     width: 100% !important;
     position: relative;
     text-align: center;
+      overflow-x: hidden;
 }
 
 .card .service-p {

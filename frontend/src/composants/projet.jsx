@@ -61,10 +61,12 @@ function Service() {
 
         await video.play();
     };
+    
     return (
         <>
             <div className="servicep ">
                 <h2 className="service-title stext pb-5">🚀 Mes Projets</h2>
+                <h5 className="exat">pour voir les videos de chaque projets placez le curseur sur le logo du projet puis cliquez</h5>
                 <div className="row row-cols-1 row-cols-md-3 gx-4 gy-5 pt-5 w-100 service-container">
                     {services.map((service) => (
                         <div key={service.id} className="col px-3">
@@ -72,7 +74,7 @@ function Service() {
                                 <video
                                     src={service.video}
                                     poster={service.image}
-                                    className="card-img-top video-preview"
+                                    className="card-img-top video-preview pointer"
                                     muted
                                     loop
                                     playsInline
@@ -85,14 +87,14 @@ function Service() {
 
                                 <div className="card-body service-p d-flex justify-content-between align-items-center">
                                     <h5 className="card-title text-white">{service.title}</h5>
-                                    <button
+                                    {/* <button
                                         type="button"
-                                        className="btn btn-danger"
+                                        className="btn btn-danger pointer"
                                         data-bs-toggle="modal"
                                         data-bs-target={`#examensModal-${service.id}`}
                                     >
                                         En Savoir plus...
-                                    </button>
+                                    </button> */}
 
                                     {/* <div className="d-flex justify-content-between mt-3">
                                             <button
@@ -121,7 +123,7 @@ function Service() {
                                 <div className="modal-dialog modal-dialog-scrollable">
                                     <div className="modal-content">
                                         <div className="modal-header">
-                                            <h5 className="modal-title">Examens pour {service.title}</h5>
+                                            <h5 className="modal-title">projet {service.title}</h5>
                                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div className="modal-body">
@@ -132,28 +134,6 @@ function Service() {
                                                     </li>
                                                 ))}
                                             </ul>
-                                        </div>
-                                        <div className="modal-footer">
-                                            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">
-                                                Fermer
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            {/* Modal Info */}
-                            <div className="modal fade" id={`infoModal-${service.id}`} tabIndex="-1" aria-hidden="true">
-                                <div className="modal-dialog modal-dialog-scrollable">
-                                    <div className="modal-content">
-                                        <div className="modal-header">
-                                            <h5 className="modal-title">À propos de {service.title}</h5>
-                                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                        <div className="modal-body">
-                                            <p>
-                                                { }
-                                            </p>
                                         </div>
                                         <div className="modal-footer">
                                             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">

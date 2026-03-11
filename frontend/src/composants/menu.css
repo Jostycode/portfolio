@@ -1,7 +1,10 @@
 /* Styles personnalisés pour la Navbar Bootstrap */
 
 .navbar {
-    z-index: 1000;
+  position: -webkit-sticky; /* Pour Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1020; /* Assure-toi qu'il passe au-dessus du contenu */
 }
 
 /* Transition smooth pour les liens de navigation */
