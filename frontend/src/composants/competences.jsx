@@ -63,11 +63,11 @@ const experiences = [
             "Mise en place et administration de réseaux d'entreprise, sécurité et virtualisation.",
     },
     {
-        title: "stage ",
+        title: "Responsable genie logiciel",
         company: 'Clinique Médicale "LES EAUX"',
         period: "2025 - À présent",
         description:
-            "C’est un centre médical moderne dédié à votre santé et à votre bien-être.idispose d’une équipe de professionnels qualiés et des équipointe pour offrir des soins de qualipements de té à tous nos patient",
+            `Au sein de la Clinique Les Eaux, j'ai exercé une mission transversale alliant l'ingénierie logicielle à la gestion d'infrastructure, affirmant ainsi une solide expertise Fullstack et DevOps. D'une part, j'ai piloté l'intégralité de l'infrastructure réseau et du parc informatique, garantissant la sécurité et la fluidité du partage de données médicales critiques à travers le déploiement d'équipements d'interconnexion optimisés. D'autre part, j'ai porté la modernisation digitale de l'établissement en concevant et déployant l'application web officielle sous React, créant ainsi un écosystème d'information centralisé et performant. Cette capacité à naviguer entre l'administration système rigoureuse et le développement front-end moderne a permis de renforcer l'identité numérique de la structure tout en assurant une continuité opérationnelle optimale.`,
     },
     {
         title: "Projet Etudiant",
