@@ -157,9 +157,9 @@ const Contact = () => {
                     <span>
                         <strong>LinkedIn :</strong> <a href="https://linkedin.com/in/jostybadzoue" target="_blank" rel="noopener noreferrer" style={{ color: "#0078d4" }}>linkedin.com/in/jostybadzoue</a>
                     </span>
-                    <span>
+                    {/* <span>
                         <strong>GitHub :</strong> <a href="https://github.com/jostybadzoue" target="_blank" rel="noopener noreferrer" style={{ color: "#0078d4" }}>github.com/jostybadzoue</a>
-                    </span>
+                    </span> */}
                 </div>
             </div>
         </div>
