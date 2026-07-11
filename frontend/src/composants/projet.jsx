@@ -7,18 +7,19 @@ import registre from "../assets/Registre ccc.mp4";
 import Logo_leseaux from "../assets/Logo_leseaux.png";
 import logo_ccc from "../assets/logo_ccc.png";
 import img33 from "../assets/img2.png";
+import bakissi from "../assets/bakissi.mp4";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 function Service() {
     const services = [
-        { id: 1, title: "Registre trafic Conseil Congolais Chargeurs", image: logo_ccc, video: registre, examen: [{ title: "Registre trafic Conseil Congolais Chargeurs", technologie: "React, Node.js, PostgreSQL" }] },
+        { id: 1, title: "pharmacie clinique les eaux", image: bakissi, video: bakissi, examen: [{ title: "pharmacie clinique les eaux", technologie: "React, Node.js, PostgreSQL" }] },
+        { id: 2, title: "Registre trafic Conseil Congolais Chargeurs", image: logo_ccc, video: registre, examen: [{ title: "Registre trafic Conseil Congolais Chargeurs", technologie: "React, Node.js, PostgreSQL" }] },
+        { id: 4, title: "Site fullStack de la Clinique 'LES EAUX'", image: Logo_leseaux, video: leseaux1, examen: [{ title: "Site fullStack de la Clinique 'LES EAUX'", technologie: "React, Node.js, PostgreSQL" }] },
 
-        { id: 2, title: "Site fullStack de la Clinique 'LES EAUX'", image: Logo_leseaux, video: leseaux1, examen: [{ title: "Site fullStack de la Clinique 'LES EAUX'", technologie: "React, Node.js, PostgreSQL" }] },
-
-        { id: 3, title: "Site vitrine de la Clinique 'LES EAUX'", image: Logo_leseaux, video: leseaux2, examen: [{ title: "Site vitrine de la Clinique 'LES EAUX'", technologie: "React" }] },
-        { id: 4, title: "restaurant ", image: img33, video: restaurant, examen: [{ title: "restaurant", technologie: "React" }] },
-        { id: 5, title: "Blog SpeechMedia", image: img33, video: speech1, examen: [{ title: "Blog SpeechMedia", technologie: "React, Node.js, MySQL" }] },
+        { id: 5, title: "Site vitrine de la Clinique 'LES EAUX'", image: Logo_leseaux, video: leseaux2, examen: [{ title: "Site vitrine de la Clinique 'LES EAUX'", technologie: "React" }] },
+        { id: 6, title: "restaurant ", image: img33, video: restaurant, examen: [{ title: "restaurant", technologie: "React" }] },
+        { id: 7, title: "Blog SpeechMedia", image: img33, video: speech1, examen: [{ title: "Blog SpeechMedia", technologie: "React, Node.js, MySQL" }] },
 
 
 
